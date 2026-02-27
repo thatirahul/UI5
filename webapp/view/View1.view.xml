@@ -1,0 +1,22 @@
+<mvc:View controllerName="service.ui5.project1.controller.View1"
+    xmlns:mvc="sap.ui.core.mvc"
+    xmlns="sap.m">
+    <Page id="page" title="{i18n>title}">
+    <Panel id="listPanel">
+            <List id="List" mode="SingleSelectMaster" items="{/Products}" selectionChange="onProducts">
+                <items>
+                    <StandardListItem id="_IDE1" title="{Name}" description="ID: {ID}" />
+                </items>
+            </List>
+        </Panel>
+
+<Panel id="detailsPanel" visible="false">
+    <VBox id="IDE">
+        <Button id="IDEButton" text="Back" press="onBack" />
+        <Text id="Text1" text="Name: {Name}" />
+        <Text id="Text2" text="ID: {ID}" />
+        <Text id="Text3" text="Description: {Description}" />
+    </VBox>
+</Panel>
+    </Page>
+</mvc:View>

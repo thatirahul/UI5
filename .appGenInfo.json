@@ -1,0 +1,23 @@
+{
+  "generationParameters": {
+    "generationDate": "Fri Feb 13 2026 05:06:23 GMT+0000 (Coordinated Universal Time)",
+    "generatorPlatform": "SAP Business Application Studio",
+    "serviceType": "OData URL",
+    "metadataFilename": "",
+    "serviceUrl": "https://services.odata.org/V2/(S(2nog3rkhox0mkx3x102trytc))/OData/OData.svc/",
+    "appName": "project1",
+    "appTitle": "App Title",
+    "appDescription": "An SAP Fiori application.",
+    "appNamespace": "service.ui5",
+    "ui5Theme": "sap_horizon",
+    "ui5Version": "1.144.1",
+    "enableEslint": false,
+    "enableTypeScript": false,
+    "showMockDataInfo": true,
+    "generatorVersion": "1.20.2",
+    "template": "Basic V2",
+    "generatorName": "SAP Fiori Application Generator",
+    "entityRelatedConfig": [],
+    "launchText": "To launch the generated application, run the following from the generated application root folder:\n\n```\n    npm start\n```"
+  }
+}
